@@ -1,0 +1,28 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Glow background -->
+  <circle cx="60" cy="60" r="50" fill="url(#glow)" opacity="0.3"/>
+  
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="45" stroke="#D4A853" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <!-- Inner ring -->
+  <circle cx="60" cy="60" r="35" stroke="#D4A853" stroke-width="1.5" stroke-opacity="0.5"/>
+  
+  <!-- Main circle -->
+  <circle cx="60" cy="60" r="25" fill="url(#mainGradient)" stroke="#D4A853" stroke-width="2" stroke-opacity="0.6"/>
+  
+  <!-- Center dot -->
+  <circle cx="60" cy="60" r="4" fill="#D4A853"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#D4A853" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#D4A853" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mainGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#D4A853" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#D4A853" stop-opacity="0.05"/>
+    </radialGradient>
+  </defs>
+</svg>
